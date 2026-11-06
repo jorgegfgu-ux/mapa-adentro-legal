@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — Mapa Adentro</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px;
+         font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #16202a; background: #fbfaf6; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 34px 0 8px; }
+  .sub { color: #5d6b78; margin: 0 0 30px; font-size: 14px; }
+  .marca { display: inline-block; padding: 3px 10px; border-radius: 999px;
+           background: #ffd84a; color: #16202a; font-weight: 600; font-size: 13px; }
+  a { color: #0b6ea8; }
+  ul { padding-left: 22px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e2ded2; vertical-align: top; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid #e2ded2;
+           font-size: 13px; color: #6a7784; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #12161c; color: #e8edf2; }
+    .sub, footer { color: #9aa8b6; }
+    th, td, footer { border-color: #27313c; }
+    a { color: #6fc0f0; }
+  }
+</style>
+</head>
+<body>
+  <span class="marca">Mapa Adentro</span>
+  <h1>Política de Privacidad</h1>
+  <p class="sub">Última actualización: 6 de noviembre de 2026</p>
+
+  <h2>1. Resumen</h2>
+  <p>
+    La aplicación <strong>Mapa Adentro</strong> es una herramienta personal. No crea bases de datos
+    de usuarios, no vende datos y no comparte información con terceros con fines publicitarios.
+    Los pocos datos que maneja se refieren únicamente a la cuenta de TikTok que su propio autor
+    autoriza.
+  </p>
+
+  <h2>2. Qué datos se tratan</h2>
+  <table>
+    <tr><th>Dato</th><th>Para qué</th></tr>
+    <tr>
+      <td>Identificador de usuario de TikTok, nombre visible y foto de perfil (permiso <code>user.info.basic</code>)</td>
+      <td>Mostrar qué cuenta está conectada antes de publicar.</td>
+    </tr>
+    <tr>
+      <td>Tokens de acceso y de actualización de TikTok</td>
+      <td>Mantener la conexión sin pedir permiso en cada publicación.</td>
+    </tr>
+    <tr>
+      <td>Título, privacidad y resultado de cada publicación (permiso <code>video.publish</code>)</td>
+      <td>Mostrar el historial local y el estado de cada envío.</td>
+    </tr>
+    <tr>
+      <td>Vídeos que el autor elige subir</td>
+      <td>Enviarlos a TikTok a petición expresa del autor.</td>
+    </tr>
+  </table>
+
+  <h2>3. Dónde se guardan</h2>
+  <p>
+    Todo se guarda <strong>localmente</strong> en el ordenador del autor, en la carpeta de datos de
+    la aplicación. Los tokens se almacenan en un archivo protegido del equipo. No existe un servidor
+    propio ni una nube donde se alojen estos datos. La única transmisión externa es hacia los
+    servidores de TikTok, necesaria para publicar.
+  </p>
+
+  <h2>4. Base legal y finalidad</h2>
+  <p>
+    El tratamiento se basa en el consentimiento que el autor otorga al conectar su cuenta mediante
+    OAuth y en la ejecución del propio servicio solicitado. La finalidad es exclusivamente publicar
+    contenido propio en su cuenta de TikTok.
+  </p>
+
+  <h2>5. Con quién se comparten</h2>
+  <ul>
+    <li><strong>TikTok</strong>: recibe los datos y el contenido necesarios para publicar, según sus
+      <a href="https://www.tiktok.com/legal/privacy-policy" rel="noopener">propias políticas</a>.</li>
+    <li>No se comparten datos con anunciantes, intermediarios de datos ni terceros.</li>
+    <li>No se venden datos personales.</li>
+  </ul>
+
+  <h2>6. Conservación</h2>
+  <p>
+    Los tokens se conservan mientras la cuenta siga conectada y se eliminan al revocar la
+    autorización. El historial de publicaciones puede borrarse en cualquier momento eliminando el
+    archivo local correspondiente. No se conservan copias en otros lugares.
+  </p>
+
+  <h2>7. Tus derechos</h2>
+  <p>En cualquier momento puedes:</p>
+  <ul>
+    <li>revocar el acceso desde TikTok: <em>Configuración → Seguridad e inicio de sesión → Gestionar
+      permisos de aplicaciones</em>;</li>
+    <li>solicitar la eliminación de los datos locales;</li>
+    <li>solicitar información sobre qué datos se conservan.</li>
+  </ul>
+  <p>
+    Para ejercerlos, escribe al autor del proyecto a través de
+    <a href="https://github.com/jorgegfgu-ux" rel="noopener">github.com/jorgegfgu-ux</a>.
+  </p>
+
+  <h2>8. Menores</h2>
+  <p>
+    La aplicación no está dirigida a menores de 13 años ni recopila datos de menores de forma
+    consciente.
+  </p>
+
+  <h2>9. Seguridad</h2>
+  <p>
+    El acceso a TikTok se realiza mediante OAuth 2.0 con la clave secreta de la aplicación guardada
+    fuera del código y los tokens almacenados localmente con permisos restringidos. Aun así, ningún
+    sistema es infalible: si detectas un acceso no autorizado, revoca el permiso en TikTok de
+    inmediato.
+  </p>
+
+  <h2>10. Cambios</h2>
+  <p>
+    Esta política puede actualizarse. La versión vigente será siempre la publicada en esta página,
+    con su fecha de actualización.
+  </p>
+
+  <footer>
+    Mapa Adentro · <a href="./terminos.html">Términos de Servicio</a> ·
+    <a href="./">Inicio</a>
+  </footer>
+</body>
+</html>
